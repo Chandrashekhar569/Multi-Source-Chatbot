@@ -1,0 +1,15 @@
+# FastAPI framework
+fastapi
+uvicorn[standard]
+pydantic
+langchain
+langchain-community
+langchain-openai
+pypdf
+beautifulsoup4
+lxml
+aiohttp
+faiss-cpu
+openai
+python-dotenv
+python-multipart

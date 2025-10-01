@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  api:
+    build: .
+    container_name: ms_chatbot_api
+    env_file:
+      - .env
+    volumes:
+      - ./data_store:/home/appuser/app/data_store
+      - ./logs:/home/appuser/app/logs
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
